@@ -1,0 +1,45 @@
+:root {
+    /* C O L O R S */
+    --color-bg: #0b0e17; /* deep space navy / back */
+    --color-bg-alt: #131826; /*slightly lighter panel bg*/
+    --color-text: #e8ecf4; /*soft off white for body text*/
+    --color-text-muted: #a7b0c2; /*secondary / muted text*/
+    --color-accent: #4fd1ff; /*bright cyan accent*/
+    --color-accent-alt: #ff6b6b; /*secondary accent for hightlights*/
+    --color-border: #2a3247; /* subtle borders / dividers */
+
+    /* F O N T S */
+    --font-main: 'Cagliostro', sans-serif;
+
+    /* S P A C I N G (for consistent proximity / repetition */
+    --spacing-sm: 0.5;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+
+    /* L A Y O U T */
+    --max-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-main);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+
+/* H E A D E R */
+
+header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid var(--color-border);
+}
