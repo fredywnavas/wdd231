@@ -43,3 +43,27 @@ header {
     background-color: var(--color-bg-alt);
     border-bottom: 1px solid var(--color-border);
 }
+
+/*  L O G O  */
+.logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.site-name {
+    font-size: 1.25rem;
+    margin-right: auto; /* pushes hamburger button to the far right */
+}
+
+#hamburger {
+    background: none;
+    border: none;
+    padding: var(--spacing-sm);
+    cursor: pointer;
+    line-height: 0; /* prevents extra height around the img */
+}
+
+#hamburger img {
+    width: 28px;
+}
