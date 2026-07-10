@@ -8,6 +8,8 @@
     <title>Fredy Navas | Home Page</title>
 
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/course.js" defer></script>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
 
@@ -23,7 +25,7 @@
         <img src="images/rocket-logo.svg" alt="rocket logo" class="logo">
         <span class="site-name">Fredy Navas</span>
         <button id="hamburger" aria-label="Open navigation menu">
-            <img src="images/hamburger-menu.svg" alt="hamburger menu">
+            <img src="images/hamburger-menu-3.svg" alt="hamburger menu">
         </button>
     </header>
 
@@ -50,6 +52,13 @@
 
         <section>
             <h2>Web Certificate Courses</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="WDD">WDD Courses</button>
+                <button class="filter-btn" data-filter="CSE">CSE Courses</button>
+            </div>
+            <p id="total-credits"></p>
+            <div id="course-cards"></div>
         </section>
 
     </main>
