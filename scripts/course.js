@@ -1,6 +1,6 @@
 const courseContainer = document.querySelector("#course-cards");
 const totalCreditsElement = document.querySelector("#total-credits");
-const filterButton = document.querySelectorAll(".#filter-btn");
+const filterButtons = document.querySelectorAll(".filter-btn");
 
 
 // Renders whatever array is passed in (all courses, or filtered subset)
@@ -16,12 +16,12 @@ function displayCourses(courseList) {
             courseCard.classList.add("completed");
         }
 
-        card.innerHTML = `
+        courseCard.innerHTML = `
             <h3>${course.subject} ${course.number}</h3>
             <p class="course-title">${course.title}</p>
             <p class="course-credits">${course.credits} credits</p>
         `;
-        courseContainer.appendChild(card);
+        courseContainer.appendChild(courseCard);
     });
 
     updateTotalCredits(courseList);
@@ -38,7 +38,7 @@ function updateTotalCredits(courseList) {
 
 // Wire up the filter buttons
 
-filterButton.forEach(button => {
+filterButtons.forEach(button => {
     button.addEventListener("click", () => {
         const filter = button.dataset.filter;
 
@@ -49,7 +49,7 @@ filterButton.forEach(button => {
         }
 
         // Optional: highlight the active button
-        filterButton.forEach(btn => btn.classList.remove("active"));
+        filterButtons.forEach(btn => btn.classList.remove("active"));
         button.classList.add("active");
     });
 });
