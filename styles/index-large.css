@@ -1,0 +1,17 @@
+
+@media (min-width: 768px) {
+    /*HIDE HAMBURGER MENU ON LARGER SCREENS*/
+    #hamburger {
+        display: none;
+    }
+
+    /*SHOW NAVIGATION MENU ON LARGER SCREENS*/
+    nav {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 2rem;
+        padding: 1rem 2rem;
+        background-color: var(--color-bg-alt);
+        border-bottom: 1px solid var(--color-border);
+    }
+}

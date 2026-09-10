@@ -85,11 +85,17 @@ header {
 /*BUTTONS HOME CHAMBER FINAL*/
 
 nav {
-    display: flex;
+    display: none; /* hidden by default, shown on larger screens */
     gap: var(--spacing-md);
     padding: var(--spacing-md);
     background-color: var(--color-bg-alt);
     border-bottom: 1px solid var(--color-border);
+}
+
+/* Show nav when hamburguer is clicked*/
+
+nav.active {
+    display: flex;
 }
 
 nav a {
