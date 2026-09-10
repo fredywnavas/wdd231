@@ -75,6 +75,52 @@ header {
 }
 
 
+
+
+
+
+
+
+
+/*BUTTONS HOME CHAMBER FINAL*/
+
+nav {
+    display: flex;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid var(--color-border);
+}
+
+nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 4px;
+    transition: all 0.3s ease;      /* smooth hover effect */
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #e5e0da;      /* light warm tan on hover */
+    color: var(--color-accent);     /* sepia brown text */
+}
+
+nav a.active {
+    background-color: var(--color-accent);   /* sepia brown background */
+    color: #faf7f3;                           /* cream text */
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
 /* B U T T O N S */
 
 .filter-buttons {
