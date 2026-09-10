@@ -1,5 +1,6 @@
-
+/*MEDIA QUERY FOR LARGE SCREENS*/
 @media (min-width: 768px) {
+    
     /*HIDE HAMBURGER MENU ON LARGER SCREENS*/
     #hamburger {
         display: none;
@@ -13,5 +14,12 @@
         padding: 1rem 2rem;
         background-color: var(--color-bg-alt);
         border-bottom: 1px solid var(--color-border);
+    }
+
+    /*Increase padding and add max-width on larger screens*/
+    main {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }

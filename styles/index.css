@@ -32,6 +32,10 @@ body {
     line-height: 1.5;
 }
 
+main {
+    padding: 2rem;
+}
+
 main section img {
     width: 50%;
     max-width: 200%;
@@ -186,4 +190,14 @@ nav a.active {
 #total-credits {
     font-weight: bold;
     margin-bottom: var(--spacing-md);
+}
+
+
+footer {
+    text-align: center;
+    padding: var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
 }
