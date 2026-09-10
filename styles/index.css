@@ -1,15 +1,15 @@
 :root {
     /* C O L O R S */
-    --color-bg: #faf7f3; /* warm cream / off-white */
-    --color-bg-alt: #f0ebe5; /* slightly warmer panel bg */
-    --color-text: #5c5047; /* warm dark brown for body text */
-    --color-text-muted: #9d8b78; /* warm muted tan */
-    --color-accent: #b8956a; /* warm sepia brown accent */
-    --color-accent-alt: #c1a578; /* lighter sepia for highlights */
-    --color-border: #d4cac0; /* warm tan borders / dividers */
+    --color-bg: #ffffff; /* pure white background */
+    --color-bg-alt: #f5f3f0; /* light off-white panels */
+    --color-text: #1a1a1a; /* dark charcoal for maximum contrast */
+    --color-text-muted: #555555; /* medium gray for secondary text */
+    --color-accent: #2c3e50; /* deep navy/charcoal accent */
+    --color-accent-alt: #34495e; /* slightly lighter accent */
+    --color-border: #999999; /* darker visible borders */
 
     /* F O N T S */
-    --font-main: 'Cagliostro', sans-serif;
+    --font-main: 'Menlo', 'Monaco', 'Consolas', monospace;
 
     /* S P A C I N G (for consistent proximity / repetition */
     --spacing-sm: 0.5;
@@ -85,15 +85,15 @@ header {
 /*BUTTONS HOME CHAMBER FINAL*/
 
 nav {
-    display: none; /* hidden by default, shown on larger screens */
+    display: none; /* hidden by default on mobile */
+    flex-direction: column; /* vertical menu on mobile */
     gap: var(--spacing-md);
     padding: var(--spacing-md);
     background-color: var(--color-bg-alt);
     border-bottom: 1px solid var(--color-border);
 }
 
-/* Show nav when hamburguer is clicked*/
-
+/* Show nav when hamburger is clicked (active class added by JS) */
 nav.active {
     display: flex;
 }
@@ -108,13 +108,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #e5e0da;      /* light warm tan on hover */
-    color: var(--color-accent);     /* sepia brown text */
+    background-color: #e0e0e0;      /* light gray on hover */
+    color: var(--color-accent);     /* dark accent text */
 }
 
 nav a.active {
-    background-color: var(--color-accent);   /* sepia brown background */
-    color: #faf7f3;                           /* cream text */
+    background-color: var(--color-accent);   /* deep navy background */
+    color: #ffffff;                           /* white text */
     font-weight: bold;
 }
 
@@ -148,7 +148,7 @@ nav a.active {
 
 .filter-btn.active {
     background-color: var(--color-accent);
-    color: var(--color-bg);
+    color: #ffffff;
     border-color: var(--color-accent);
 }
 
@@ -171,7 +171,7 @@ nav a.active {
 
 .course-card.completed {
     border-color: var(--color-accent);
-    background-color: rgba(79, 209, 255, 0.1); /* subtle accent tint, not a full color swap */
+    background-color: #e8f1f8; /* light blue tint for completed cards */
 }
 
 .course-card.completed::after {
@@ -180,6 +180,7 @@ nav a.active {
     margin-top: var(--spacing-sm);
     color: var(--color-accent);
     font-size: 0.85rem;
+    font-weight: bold;
 }
 
 #total-credits {
