@@ -1,12 +1,12 @@
 :root {
     /* C O L O R S */
-    --color-bg: #0b0e17; /* deep space navy / black */
-    --color-bg-alt: #131826; /*slightly lighter panel bg*/
-    --color-text: #e8ecf4; /*soft off white for body text*/
-    --color-text-muted: #a7b0c2; /*secondary / muted text*/
-    --color-accent: #4fd1ff; /*bright cyan accent*/
-    --color-accent-alt: #ff6b6b; /*secondary accent for hightlights*/
-    --color-border: #2a3247; /* subtle borders / dividers */
+    --color-bg: #faf7f3; /* warm cream / off-white */
+    --color-bg-alt: #f0ebe5; /* slightly warmer panel bg */
+    --color-text: #5c5047; /* warm dark brown for body text */
+    --color-text-muted: #9d8b78; /* warm muted tan */
+    --color-accent: #b8956a; /* warm sepia brown accent */
+    --color-accent-alt: #c1a578; /* lighter sepia for highlights */
+    --color-border: #d4cac0; /* warm tan borders / dividers */
 
     /* F O N T S */
     --font-main: 'Cagliostro', sans-serif;
@@ -32,6 +32,11 @@ body {
     line-height: 1.5;
 }
 
+main section img {
+    width: 50%;
+    max-width: 200%;
+    height: auto;
+}
 
 /* H E A D E R */
 
