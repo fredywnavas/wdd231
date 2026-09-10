@@ -36,10 +36,20 @@
         grid-column: 1 / -1;
     }
 
+    /*Adjust photo for desktop*/
+    main section img.student-photo {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+
+
     /* Social media styling for larger screens */
     .social-links {
         gap: 2rem;
     }
+
  
     .social-links a {
         width: 60px;
