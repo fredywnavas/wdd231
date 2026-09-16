@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "name": "KLA Corporation",
+      "address": "3 Technology Dr, Milpitas, CA 95035",
+      "phone": "(408) 875-3000",
+      "website": "https://www.kla.com/",
+      "membershipLevel": 3,
+      "industry": "Semiconductor equipment manufacturing",
+      "image": "images/logo-kla.png"
+    },
+    {
+      "name": "Analog Devices",
+      "address": "1630 McCarthy Blvd, Milpitas, CA 95035",
+      "phone": "(408) 432-1900",
+      "website": "https://www.analog.com/",
+      "membershipLevel": 3,
+      "industry": "Semiconductor manufacturing",
+      "image": "images/logo-analog-devices.png"
+    },
+    {
+      "name": "SanDisk",
+      "address": "951 SanDisk Dr, Milpitas, CA 95035",
+      "phone": "(408) 801-1000",
+      "website": "https://www.sandisk.com/",
+      "membershipLevel": 3,
+      "industry": "Data storage and flash memory",
+      "image": "images/logo-sandisk.png"
+    },
+    {
+      "name": "Renesas Electronics",
+      "address": "1001 Murphy Ranch Rd, Milpitas, CA 95035",
+      "phone": "(408) 432-8888",
+      "website": "https://www.renesas.com/",
+      "membershipLevel": 2,
+      "industry": "Semiconductor manufacturing",
+      "image": "images/logo-renesas.png"
+    },
+    {
+      "name": "Flex",
+      "address": "847 Gibraltar Dr, Milpitas, CA 95035",
+      "phone": "(408) 576-7492",
+      "website": "https://flex.com/",
+      "membershipLevel": 2,
+      "industry": "Electronics manufacturing and supply chain services",
+      "image": "images/logo-flex.png"
+    },
+    {
+      "name": "Zensar Technologies",
+      "address": "430 N McCarthy Blvd, Milpitas, CA 95035",
+      "phone": "(408) 477-3606",
+      "website": "https://www.zensar.com/",
+      "membershipLevel": 1,
+      "industry": "Information technology and software services",
+      "image": "images/logo-zensar.png"
+    },
+    {
+      "name": "Teksun Inc",
+      "address": "1607 S Main St, Milpitas, CA 95035",
+      "phone": "(408) 439-1710",
+      "website": "https://www.teksun.com/",
+      "membershipLevel": 1,
+      "industry": "Engineering and technology services",
+      "image": "images/logo-teksun.png"
+    }
+  ]
+}
