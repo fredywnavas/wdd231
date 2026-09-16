@@ -334,3 +334,15 @@ main h1 {
     color: #333;
     border: 1px solid #888;
 }
+
+
+
+/* F O O T E R */
+
+footer {
+    text-align: center;
+    padding: var(--spacing-md);
+    background-color: #e8e8e8;
+    border-top: 1px solid #333;
+    color: #000000;
+}
