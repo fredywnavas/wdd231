@@ -52,7 +52,7 @@ function displayListView() {
     membersContainer.classList.add('list-view');
 
     members.forEach(member => {
-        const listItem = createMemberListItem(member);
+        const listItem = createListItem(member);
         membersContainer.appendChild(listItem);
     });
 

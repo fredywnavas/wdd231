@@ -29,4 +29,22 @@
         background-color: transparent;
         border-bottom-color: #ffffff;
     }
+
+    /*-------------X----------X----------X----------X--------X-----*/
+    /*-----X------------X----------X----------X---------X----------*/
+    /*-------------X----------X----------X----------X--------X-----*/
+
+    
+    /* DIRECTORY - DESKTOP*/
+
+    .members-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    /* 3 columns on large desktop */
+    .members-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

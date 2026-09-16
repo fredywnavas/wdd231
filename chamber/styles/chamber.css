@@ -76,3 +76,229 @@ nav {
 .hamburger-menu.active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -7px);
 }
+
+
+/*-------------X----------X----------X----------X--------X-----*/
+/*--------X----------X----------X----------X---------X---------*/
+/*-------------X----------X----------X----------X--------X-----*/
+/*--------X----------X----------X----------X---------X---------*/
+
+
+/* ===== DIRECTORY PAGE STYLING ===== */
+ 
+/* Main and heading */
+main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+ 
+/* Toggle Buttons */
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+ 
+.toggle-btn {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #13748d;
+    background-color: white;
+    color: #13748d;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+ 
+.toggle-btn:hover {
+    background-color: #f0f0f0;
+}
+ 
+.toggle-btn.active {
+    background-color: #13748d;
+    color: white;
+}
+ 
+/* ===== GRID VIEW ===== */
+ 
+.members-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+}
+ 
+.member-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+ 
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+ 
+.card-image {
+    width: 100%;
+    height: 200px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+ 
+.card-image img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+ 
+.card-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.member-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+    font-size: 1.25rem;
+}
+ 
+.member-card .industry {
+    color: #666;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+ 
+.member-card .address {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 0.75rem 0 0.5rem 0;
+}
+ 
+.member-card .phone {
+    margin: 0.25rem 0;
+}
+ 
+.member-card .phone a {
+    color: #13748d;
+    text-decoration: none;
+}
+ 
+.member-card .phone a:hover {
+    text-decoration: underline;
+}
+ 
+.website-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #13748d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+ 
+.website-link:hover {
+    background-color: #0d4f68;
+}
+ 
+/* ===== LIST VIEW ===== */
+ 
+.members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+ 
+.member-list-item {
+    border-left: 4px solid #13748d;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+ 
+.member-list-item:hover {
+    background-color: #f0f0f0;
+}
+ 
+.list-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+ 
+.member-list-item h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.25rem;
+}
+ 
+.member-list-item p {
+    margin: 0.5rem 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+ 
+.member-list-item a {
+    color: #13748d;
+    text-decoration: none;
+}
+ 
+.member-list-item a:hover {
+    text-decoration: underline;
+}
+ 
+/* ===== MEMBERSHIP BADGES ===== */
+ 
+.membership-badge {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+ 
+.membership-badge.silver {
+    background-color: #e8e8e8;
+    color: #333;
+}
+ 
+.membership-badge.gold {
+    background-color: #ffd700;
+    color: #333;
+}
+ 
+.membership-badge.platinum {
+    background-color: #e5e4e2;
+    color: #333;
+    border: 1px solid #888;
+}
