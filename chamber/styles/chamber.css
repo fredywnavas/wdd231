@@ -1,5 +1,37 @@
 /*NAVIGATION - MOBILE FIRST*/
 
+
+
+/* ===== GOOGLE FONTS ===== */
+
+/* Cagliostro - for headings (h1, h2, h3) */
+h1, h2, h3 {
+    font-family: 'Cagliostro', serif;
+    font-weight: 400;
+}
+
+/* PT Serif - for body text (paragraphs, links, etc.) */
+body, p, a, li {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+/* Bold text uses weight 700 */
+strong, b {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+/* Italic text */
+em, i {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
