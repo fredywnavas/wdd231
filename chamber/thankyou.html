@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Chamber of Commerce landing home page to welcome visitors with key information.">
         <meta name="author" content="Fredy Navas">
-        <title>Join - Chamber of Commerce</title>
+        <title>Thank You for joining - Chamber of Commerce</title>
 
 
         <!--GOOGLE FONTS-->
@@ -23,7 +23,7 @@
         <script src="scripts/directory.js" defer></script>
         <script src="scripts/weather.js" defer></script>
         <script src="scripts/spotlights.js" defer></script>
-        <script src="scripts/join.js" defer></script>
+        <script src="scripts/thankyou.js" defer></script>
         <link rel="stylesheet" href="styles/chamber.css">
         <link rel="stylesheet" href="styles/chamber-large.css">
 
@@ -56,78 +56,29 @@
             </nav>
         </header>
 
+
+
         <main>
 
-            <h1>Join The Chamber</h1>
+            <h1>Thank You for joining!</h1>
+            <p>Your application has been received. Here's what you submitted:</p>
 
-            <form action="thankyou.html" method="get">
-
-                <fieldset>
-
-                    <legend>Application Information</legend>
-
-                    <p>
-                        <label for="firstName">First Name</label>
-                        <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="give-name" required>
-                    </p>
-
-                    <p>
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName" title="Last Name" autocapitalize="family-name" required>
-                    </p>
-
-                    <p>
-                        <label for="orgTitle">Organizational Title</label>
-                        <input type="text" id="orgTitle" name="orgTitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
-                    </p>
-
-                    <p>
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" title="Email Address" autocomplete="email" placeholder="email@example.com" required>
-                    </p>
-
-                    <p>
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" title="Mobile Phone Number" autocomplete="tel" required>
-                    </p>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <legend>Business Information</legend>
-
-                    <p>
-                        <label for="orgName">Business/Organization Name</label>
-                        <input type="text" id="orgName" name="orgName" title="Business Name" autocomplete="organization" required>
-                    </p>
-
-                    <p>
-                        <label for="membership">Membership Level</label>
-                        <select id="membership" name="membership" title="Membership Level">
-                            <option value="np">NP Membership</option>
-                            <option value="bronze">Bronze Membership</option>
-                            <option value="silver">Silver Membership</option>
-                            <option value="gold">Gold Membership</option>
-                        </select>
-                    </p>
-
-                    <p>
-                        <label for="orgDescription">Business / Organization Description</label>
-                        <textarea id="orgDescription" name="orgDescription" title="Business Description"></textarea>
-                    </p>
-
-                </fieldset>
-
-                <input type="hidden" id="timestamp" name="timestamp">
-
-                <p>
-                    <button type="submit">Submit Application</button>
-                </p>
-
-            </form>
+            <section id="confirmation">
+                <p><strong>Name:</strong> <span id="fullName"></span></p>
+                <p><strong>Organizational Title:</strong> <span id="orgTitle"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Phone:</strong> <span id="phone"></span></p>
+                <p><strong>Business/Organization:</strong> <span id="orgName"></span></p>
+                <p><strong>Membership Level:</strong> <span id="membership"></span></p>
+                <p><strong>Description:</strong> <span id="orgDescription"></span></p>
+                <p><strong>Submitted:</strong> <span id="timestamp"></span></p>
+            </section>
 
         </main>
+
+
+
+
 
 
         <footer>
