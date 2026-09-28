@@ -15,4 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
             navMenu.classList.remove('active');
         });
     });
+
+    // Mark the link for the current page
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+
+    navMenu.querySelectorAll('a').forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+            link.setAttribute('aria-current', 'page');
+        }
+    });
 });

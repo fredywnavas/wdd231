@@ -152,6 +152,12 @@ nav {
     transition: background-color 0.3s;
 }
 
+/*CURRENT PAGE HIGHLIGHTED*/
+.nav-menu a[aria-current="page"] {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 -3px 0 #fff;
+}
+
 .nav-menu a:hover {
     background-color: #13748d;
 }
