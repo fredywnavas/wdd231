@@ -98,7 +98,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #13748d;
+    background: linear-gradient(to bottom right, rgba(19, 116, 141, 1), rgba(19, 116, 141, 0));
     padding: 1rem;
     position: absolute;
     top: 0;
