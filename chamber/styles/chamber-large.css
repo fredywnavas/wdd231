@@ -31,9 +31,6 @@
     }
 
     /*-------------X----------X----------X----------X--------X-----*/
-    /*-----X------------X----------X----------X---------X----------*/
-    /*-------------X----------X----------X----------X--------X-----*/
-
     
     /* DIRECTORY - DESKTOP*/
 
@@ -46,5 +43,24 @@
     /* 3 columns on large desktop */
     .members-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+/* J O I N . H T M L */
+
+@media (min-width: 768px) {
+    .join-content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .join-content form {
+        flex: 2;
+    }
+
+    .membership-cards {
+        flex: 1;
     }
 }

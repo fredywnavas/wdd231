@@ -402,6 +402,61 @@ main h1 {
 
 
 
+
+/*
+===================
+=== M O D A L S ===
+===================
+*/
+
+.join-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.membership-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid #13748d;
+    border-radius: 8px;
+    padding: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: cardFadeIn 0.6s ease forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.3s; }
+.card:nth-child(3) { animation-delay: 0.5s; }
+.card:nth-child(4) { animation-delay: 0.7s; }
+
+@keyframes cardFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.membership-modal {
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 500px;
+    width: 90%;
+}
+
+.membership-modal::backdrop {
+    background-color: #ddd;
+}
+
+
+
+
 /* F O O T E R */
 
 footer {
