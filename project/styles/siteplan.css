@@ -1,0 +1,69 @@
+:root {
+    --primary: #1b5e8a;
+    --secondary-color: #e07a1f;
+    --background-color: #f5f9fc;
+    --text: #1a1a1a;
+    --on-primary: #ffffff;
+
+    --heading-font: Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text);
+    font-family: var(--body-font);
+    line-height: 1.6;
+}
+
+h1, h2, h3 { font-family: var(--heading-font); color: var(--primary); }
+
+header, footer {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    text-align: center;
+    padding: 1rem;
+}
+header h1 { color : var(--on-primary); }
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.75rem;
+    background: var(--secondary-color);
+}
+
+nav a { color: var(--text); font-weight: bold; }
+
+main { max-width: 60rem; margin: 0 auto; padding: 1rem; }
+
+section { margin-bottom: 2rem; }
+
+.swatches { list-style: none; padding: 0; }
+.swatches li { margin-bottom: 0.5rem; }
+.swatch {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    border: 1px solid var(--text);
+    margin-right: 0.5rem;
+}
+
+.swatch-primary { background-color: var(--primary); }
+.swatch-secondary { background-color: var(--secondary-color); }
+.swatch-background { background-color: var(--background-color); }
+.swatch-text { background-color: var(--text); }
+
+.font-heading { font-family: var(--heading-font); }
+.font-body { font-family: var(--body-font); }
+
+figure { margin: 1rem 0; }
+img { max-width: 100%; height: auto; }
