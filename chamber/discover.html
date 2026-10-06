@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Chamber of Commerce, directory of local businesses with grid and list view.">
+        <meta name="author" content="Fredy Navas">
+        <title>Discover - Milpitas Chamber of Commerce</title>
+
+
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cagliostro&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+        <!--FAVICON-->
+        <link rel="icon" href="images/cityhallico.svg">
+
+        <!--link files-->
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/date.js" defer></script>
+        <script type="module" src="scripts/discover.mjs"></script>
+        <link rel="stylesheet" href="styles/chamber.css">
+        <link rel="stylesheet" href="styles/chamber-large.css">
+
+        <!--META TAGS-->
+        <meta property="og:title" content="Milpitas Chamber of Commerce - Discovery">
+        <meta property="og:description" content="Milpitas Chamber of Commerce, discovery of local attractions and activities.">
+        <meta property="og:image" content="https://fredywnavas.github.io/wdd231/chamber/images/cityhallico.svg">
+        <meta property="og:url" content="https://fredywnavas.github.io/wdd231/chamber/discover.html">
+
+    </head>
+    <body>
+
+        <header>
+
+                        <!--BANNER-->
+            <img src="images/milpitas_chamber_banner.webp" alt="Milpitas City Banner" class="banner-img">
+           
+           
+            <nav>
+                <button id="menu-toggle" class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discovery</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Discover Milpitas</h1>
+            <section id="visit-message" class="visit-message">
+                <p>Explore the best places to visit in Milpitas, California. From scenic parks to cultural landmarks, there's something for everyone to enjoy.</p>
+            </section>
+
+            <section id="discover-cards" class="cards">
+                
+            </section>
+
+
+
+
+
+
+
+
+        </main>
+
+        <footer>
+
+            <!--FOOTER CONTENT
+            organization information-->
+
+            <div class="footer-content">
+                <h2>Milpitas Chamber of Commerce</h2>
+                <p>828 N Hillview Dr, Milpitas, CA 95035</p>
+                <p><a href="tel:+14082622613">+1(408)262-2613</a></p>
+                <p><a href="https://milpitaschamber.com/" target="_blank">https://milpitaschamber.com/</a></p>
+            </div>
+
+            <!--Project credit-->
+            <div class="footer-section">
+                <p><strong>WDD231 CLass Project</strong></p>
+                <p>Fredy Navas</p>
+            </div>
+
+            <!--Dynamic date-->
+            <div class="footer-section">
+                <p>&copy; <span id="currentyear"></span> Milpitas Chamber of Commerce.</p>
+                <p><span id="lastModified"></span></p>
+            </div>
+
+        
+        </footer>
+        
+    </body>
+</html>
