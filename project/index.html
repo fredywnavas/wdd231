@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fredy Navas">
+    <title>FreeFlicks</title>
+    <meta name="description"
+        content="This website contains movies that are totally legal and free to watch online due to public domain and some are ad supported.">
+
+    <link rel="stylesheet" href="styles/freeflicks.css">
+    <link rel="stylesheet" href="styles/freeflicks-large.css">
+    <script src="scripts/freeflicks.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--MENU TO THE OTHER PAGES-->
+    <nav id="link-nav">
+        <button class="hamburger">☰</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suggestions.html">Suggestions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <header>
+        <div class="header-brand">
+            <a href="freeflicks.html"> <img src="images/ff-logo.webp" alt="FreeFlicks logo"></a>
+            <button id="theme-toggle">🌙</button>
+            <h1>Public Domain Films</h1>
+        </div>
+
+        <div class="header-info">
+            <p class="tagline">Watch classic movies completely legally free!
+            <br>
+            Click below to choose a movie genre.
+            </p>
+
+            <!--Navigation Menu-->
+            <!--~~~ <button id="menu-button">☰</button> ~~~-->
+            <nav id="main-nav">
+                <a href="#" data-genre="All">All</a>
+                <a href="#" data-genre="Animation">Animation</a>
+                <a href="#" data-genre="Sci-Fi">Sci-Fi</a>
+                <a href="#" data-genre="Comedy">Comedy</a>
+                <a href="#" data-genre="Drama">Drama</a>
+                <a href="#" data-genre="Horror">Horror</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!--~~ <div id="movie-grid"></div> ~~-->
+        <ul id="movie-grid"></ul>
+    
+
+
+<!--EMBED MOVIES, PLAY ONLY WHEN CARD CLICKED-->
+        <div id="movie-modal" class="modal hidden">
+            <div class="modal-content">
+                <button id="close-modal">✕</button>
+                <div id="modal-player">
+                <!-- JS injects the video or iframe here when a card is clicked -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Fredy Navas, California, USA.
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+
+</body>
+
+</html>
