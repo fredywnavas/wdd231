@@ -1,0 +1,291 @@
+/*
+NAVIGATION MENU RULES
+*/
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 1.5%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#link-nav a {
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: x-large;
+    color: #282621;
+}
+
+#link-nav a:hover {
+    color: #f1f1f1;
+    background-color: #4a4a4a;
+}
+
+/*hamburger menu*/
+.hamburger {
+    display: block;
+}
+
+#link-nav ul {
+    display: none;
+}
+
+#link-nav ul.open {
+    display: block;
+}
+
+#link-nav li {
+    display: block;
+}
+
+
+
+/*--------------------------------
+/ / / / / /   B O D Y / / / / / / /
+--------------------------------*/
+body {
+    font-family: futura, sans-serif;
+    background-color: #dfdfc4;
+    color: #282621;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+header img {
+    width: 200px;
+}
+
+.header-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+#main-nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+/*--------------------------------*/
+
+
+
+/*FILTERING MENU IN MAIN PAGE*/
+
+/*Hilight menu when hover over, keep highlighted the active one*/
+
+#main-nav a {
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    color: #282621;
+}
+
+#main-nav a:hover {
+    color: #f1f1f1;
+    background-color: #4a4a4a;
+}
+
+#main-nav a.active {
+    color: #f1f1f1;
+    background-color: #4a4a4a;
+}
+
+/*~~~~~~~~~~~~~~~~~~
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+~~~~~~~~~~~~~~~~~~~*/
+
+
+
+/*--------------------------------*/
+
+
+/*
+THEME TOGGLE, default is light mode, so this is to turn dark mode on.
+*/
+
+
+/*toggle button*/
+#theme-toggle {
+    background-color: #3f3d3d;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+
+body.dark #theme-toggle {
+    background-color: #585858;
+}
+
+
+body.dark {
+    background-color: #111111;
+    color: #aca66a;
+}
+
+body.dark #main-nav a {
+    color: #dfdfc4;
+}
+
+/*Color on LINK menu in dark mode*/
+
+body.dark #link-nav a {
+    color: #dfdfc4;
+}
+
+/*Hover over show in dark mode changed to light, kind of like a glow effect*/
+body.dark .movie-card:hover {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+}
+
+/*--------------------------------*/
+
+
+
+/*
+display grid instead of vertical list
+*/
+#movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/*--------------------------------*/
+
+
+
+/*
+Each card to stack content inside
+Also make the cards zoom in effect when hovering over with the mouse
+*/
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.movie-card p {
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+.movie-card h3 {
+    margin: 0;
+    padding: 0.5rem 0.5rem 0;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*--------------------------------*/
+
+/*
+SUGGESTIONS.HTML
+*/
+.suggestion-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #c9c9a5;
+    text-align: center;
+}
+
+/*suggestion form in dark mode*/
+body.dark .suggestion-form {
+    background-color: #282621;
+}
+
+.form-row {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-row label{
+    width: 150px;
+}
+
+
+/*--------------------------------*/
+
+
+
+/*
+FOOTER CONTENT
+*/
+footer {
+    text-align: center;
+    font-family: monospace;
+    position: static;
+    bottom: 0;
+}
+
+
+/*---------------------------------------
+contact.html SOCIAL MEDIA LINKS AND ICONS
+---------------------------------------*/
+.social-links {
+    text-align: center;
+}
+
+.social-links i {
+    font-size: 3rem;
+    color: #282621;
+}

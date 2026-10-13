@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  .header-brand {
+    flex-direction: row;
+  }
+
+  header img {
+    width: 270px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  /*
+  HAMBURGER MENU
+  */
+
+  .hamburger {
+    display: none;
+  }
+
+  #link-nav {
+    text-align: center;
+  }
+
+  #link-nav ul {
+    display: inline;
+  }
+
+  #link-nav li {
+    display: inline;
+  }
+}

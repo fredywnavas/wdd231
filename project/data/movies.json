@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "movieTitle": "Mr. Bug Goes To Town",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1941,
+    "language": "English",
+    "imageURL": "images/posters/1941-mr-bug-goes-to-town.webp",
+    "source": "https://www.youtube.com/watch?v=z-1b_B96P1Y"
+  },
+  {
+    "id": 2,
+    "movieTitle": "The Hitch-Hiker",
+    "genre": [
+      "Thriller",
+      "Horror"
+    ],
+    "year": 1953,
+    "language": "English",
+    "imageURL": "images/posters/1953-the-hitch-hiker.webp",
+    "source": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00047382/00047382.mp4"
+  },
+  {
+    "id": 3,
+    "movieTitle": "Fantastic Planet",
+    "genre": [
+      "Sci-Fi",
+      "Animation"
+    ],
+    "year": 1973,
+    "language": "English",
+    "imageURL": "images/posters/1973-fantastic-planet.webp",
+    "source": "https://archive.org/details/fantastic-planet__1973"
+  },
+  {
+    "id": 4,
+    "movieTitle": "The Last Man on Earth",
+    "genre": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "year": 1964,
+    "language": "English",
+    "imageURL": "images/posters/1964-the-last-man-on-earth.webp",
+    "source": "https://archive.org/details/the-last-man-on-earth-1964-by-ubaldo-ragona-and-sidney-salkow"
+  },
+  {
+    "id": 5,
+    "movieTitle": "Charade",
+    "genre": [
+      "Comedy",
+      "Romantic"
+    ],
+    "year": 1963,
+    "language": "English",
+    "imageURL": "images/posters/1963-charade.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Charade_(Stanley_Donen,_1963).webm"
+  },
+  {
+    "id": 6,
+    "movieTitle": "The Little Shop of Horrors",
+    "genre": [
+      "Comedy",
+      "Horror"
+    ],
+    "year": 1960,
+    "language": "English",
+    "imageURL": "images/posters/1960-little-shop.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Little_Shop_of_Horrors_(1960)_by_Roger_Corman.webm"
+  },
+  {
+    "id": 7,
+    "movieTitle": "Teenagers from Outer Space",
+    "genre": [
+      "Sci-Fi"
+    ],
+    "year": 1959,
+    "language": "English",
+    "imageURL": "images/posters/1959-teenagers-from-outer-space.webp",
+    "source": "https://archive.org/details/horror-sci-fi-thriller-movie-teenagers-from-outer-space-1959"
+  },
+  {
+    "id": 8,
+    "movieTitle": "Jack and the Beanstalk",
+    "genre": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "year": 1952,
+    "language": "English",
+    "imageURL": "images/posters/1952-jack-and-the-beanstalk.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Jack_and_the_Beanstalk_(1952).webm"
+  },
+  {
+    "id": 9,
+    "movieTitle": "Vengeance Valley",
+    "genre": [
+      "Drama",
+      "Western"
+    ],
+    "year": 1951,
+    "language": "English",
+    "imageURL": "images/posters/1951-vengeance-valley.webp",
+    "source": "https://www.youtube.com/watch?v=CAdygNgLGW0"
+  },
+  {
+    "id": 10,
+    "movieTitle": "Cyrano de Bergerac",
+    "genre": [
+      "Comedy",
+      "Adventure"
+    ],
+    "year": 1950,
+    "language": "English",
+    "imageURL": "images/posters/1950-cyrano-de-bergerac.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Cyrano_de_Bergerac_(1950).webm"
+  },
+  {
+    "id": 11,
+    "movieTitle": "Jerky Turkey",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1945,
+    "language": "English",
+    "imageURL": "images/posters/1945-jerky-turkey.webp",
+    "source": "https://www.youtube.com/watch?v=MJ_EDzA6yJk"
+  },
+  {
+    "id": 12,
+    "movieTitle": "Pigs in a Polka",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1943,
+    "language": "English",
+    "imageURL": "images/posters/1943-pigs-in-a-polka.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Pigs_in_a_Polka_LTGC.webm"
+  },
+  {
+    "id": 13,
+    "movieTitle": "A Tale of Two Kitties",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1942,
+    "language": "English",
+    "imageURL": "images/posters/1942-a-tale-of-two-kitties.webp",
+    "source": "https://en.wikipedia.org/wiki/File:A_Tale_of_Two_Kitties_190612_LTPC.webm"
+  },
+  {
+    "id": 14,
+    "movieTitle": "The Dover Boys at Pimento University",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1942,
+    "language": "English",
+    "imageURL": "images/posters/1942-the-dover-boys-at-pimento-university.webp",
+    "source": "https://archive.org/details/the-dover-boys-at-pimento-university-1942-hd-blu-ray-remux"
+  },
+  {
+    "id": 15,
+    "movieTitle": "Fox Pop",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1942,
+    "language": "English",
+    "imageURL": "images/posters/1942-fox-pop.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Chuck_Jones_-_Merrie_Melodies_-_Fox_Pop_(1942)_(restored_HD_version)_(2).webm"
+  },
+  {
+    "id": 16,
+    "movieTitle": "The Wabbit Who Came To Supper",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1942,
+    "language": "English",
+    "imageURL": "images/posters/1942-the-wabbit-who-came-to-supper.webp",
+    "source": "https://www.youtube.com/watch?v=NmrBmzt0kvE"
+  },
+  {
+    "id": 17,
+    "movieTitle": "The Ducktators",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1942,
+    "language": "English",
+    "imageURL": "images/posters/1942-the-ducktators.webp",
+    "source": "https://en.wikipedia.org/wiki/File:The_Ducktators_190611_LTGC.webm"
+  },
+  {
+    "id": 18,
+    "movieTitle": "Pantry Panic",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1941,
+    "language": "English",
+    "imageURL": "images/posters/1941-pantry-panic.webp",
+    "source": "https://en.wikipedia.org/wiki/File:Pantry_Panic.webm"
+  },
+  {
+    "id": 19,
+    "movieTitle": "The Spring",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1936,
+    "language": "English",
+    "imageURL": "images/posters/1936-the-spring.webp",
+    "source": "https://en.wikipedia.org/wiki/File:To_Spring_(1936).webm"
+  },
+  {
+    "id": 20,
+    "movieTitle": "Superman - Jungle Drums",
+    "genre": [
+      "Animation"
+    ],
+    "year": 1943,
+    "language": "English",
+    "imageURL": "images/posters/1943-jungle-drums.webp",
+    "source": "https://www.youtube.com/watch?v=n2LUJQgfhcI"
+  }
+]
