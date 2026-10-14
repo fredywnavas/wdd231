@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fredy Navas">
+    <title>Thank You | FreeFlicks</title>
+    <meta name="description" content="Confirmation of the public domain movie suggestion you sent to FreeFlicks.">
+ 
+    <!--LINK FILES-->
+    <link rel="stylesheet" href="styles/freeflicks.css">
+    <link rel="stylesheet" href="styles/freeflicks-large.css">
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/form-results.js"></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+ 
+<body>
+    <!--Menu to the other pages-->
+    <nav id="link-nav">
+        <button type="button" class="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suggestions.html">Suggestions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-brand">
+            <a href="index.html"> <img src="images/ff-logo.webp" alt="FreeFlicks logo" width="200" height="200"></a>
+            <button type="button" id="theme-toggle">🌙</button>
+            <h1>Thank You!</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="form-results">
+            <p id="results-message"></p>
+            <dl id="results-list"></dl>
+            <p><a href="suggestions.html">Send another suggestion</a> or <a href="index.html">go back to the movies</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Fredy Navas, California, USA.
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

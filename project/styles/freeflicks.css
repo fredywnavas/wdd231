@@ -349,3 +349,11 @@ body.dark #movie-modal { background-color: #1b1b1b; color: #dfdfc4; }
 #modal-player iframe, #modal-player video {
     width: 100%; aspect-ratio: 16 / 9; border: 0; background: #000;
 }
+
+
+/*
+FORM RESULTS PAGE
+*/
+.form-results { max-width: 600px; margin: 0 auto; text-align: center; }
+.form-results dt { font-weight: bold; margin-top: 1rem; }
+.form-results dd { margin: 0.25rem 0 0; overflow-wrap: anywhere; }
