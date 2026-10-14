@@ -3,9 +3,11 @@
     display: block;
   }
 
+  /*
   #menu-button {
     display: none;
   }
+  */
 
   .header-brand {
     flex-direction: row;

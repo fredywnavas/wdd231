@@ -56,9 +56,11 @@ body {
     color: #282621;
 }
 
+/*
 .hidden {
     display: none;
 }
+*/
 
 header {
     display: flex;
@@ -288,4 +290,62 @@ contact.html SOCIAL MEDIA LINKS AND ICONS
 .social-links i {
     font-size: 3rem;
     color: #282621;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+WAYFINDING
+*/
+
+#link-nav a[aria-current="page"] {
+    font-weight: bold;
+    color: #f1f1f1;
+    background-color: #4a4a4a;
+}
+body.dark #link-nav a[aria-current="page"] { color: #f1f1f1; }
+
+/*
+GENRE LINKS WRAP ON SMALL SCREENS
+*/
+#main-nav { flex-wrap: wrap; justify-content: center; }
+
+/*
+MOVIE LIST AND CARD TITTLE BUTTON
+*/
+#movie-grid { list-style: now; padding: 0; }
+.movie-card h3 button {
+    background: none; border: none; padding: 0;
+    font: inherit; color: inherit; text-align: left; cursor: pointer;
+}
+
+/*
+MODAL
+*/
+#movie-modal {
+    width: min(90vw, 800px);
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #dfdfc4;
+    color: #282621;
+}
+body.dark #movie-modal { background-color: #1b1b1b; color: #dfdfc4; }
+#movie-modal::backdrop { background: rgba(0, 0, 0, 0.7); }
+.modal-content { position: relative; padding: 1rem; }
+#close-modal { position: absolute; top: 0.5rem; right: 0.5rem; cursor: pointer; }
+#modal-player iframe, #modal-player video {
+    width: 100%; aspect-ratio: 16 / 9; border: 0; background: #000;
 }

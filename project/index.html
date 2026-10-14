@@ -9,6 +9,8 @@
     <meta name="description"
         content="This website contains movies that are totally legal and free to watch online due to public domain and some are ad supported.">
 
+
+        <!--LINK FILES-->
     <link rel="stylesheet" href="styles/freeflicks.css">
     <link rel="stylesheet" href="styles/freeflicks-large.css">
     <script type="module" src="scripts/main.js"></script>
@@ -28,7 +30,7 @@
 
     <!--MENU TO THE OTHER PAGES-->
     <nav id="link-nav">
-        <button class="hamburger">☰</button>
+        <button type="button" class="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="suggestions.html">Suggestions</a></li>
@@ -72,14 +74,14 @@
 
 
 <!--EMBED MOVIES, PLAY ONLY WHEN CARD CLICKED-->
-        <div id="movie-modal" class="modal hidden">
+        <dialog id="movie-modal" aria-labelledby="modal-title">
             <div class="modal-content">
-                <button id="close-modal">✕</button>
-                <div id="modal-player">
-                <!-- JS injects the video or iframe here when a card is clicked -->
-                </div>
+                <button type="button" id="close-modal" aria-label="Close">✕</button>
+                <h2 id="modal-title"></h2>
+                <div id="modal-player"></div>
+                <p id="modal-details"></p>
             </div>
-        </div>
+        </dialog>
 
     </main>
 
