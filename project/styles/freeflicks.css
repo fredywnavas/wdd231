@@ -56,12 +56,6 @@ body {
     color: #282621;
 }
 
-/*
-.hidden {
-    display: none;
-}
-*/
-
 header {
     display: flex;
     flex-direction: column;
@@ -94,6 +88,8 @@ h1 {
 
 #main-nav {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 3rem;
 }
@@ -121,18 +117,6 @@ h1 {
     color: #f1f1f1;
     background-color: #4a4a4a;
 }
-
-/*~~~~~~~~~~~~~~~~~~
-nav {
-    display: none;
-}
-
-nav.open {
-    display: block;
-}
-~~~~~~~~~~~~~~~~~~~*/
-
-
 
 /*--------------------------------*/
 
@@ -188,6 +172,8 @@ display grid instead of vertical list
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 2rem;
+    list-style: none;
+    padding: 0;
 }
 
 .container {
@@ -317,15 +303,10 @@ WAYFINDING
 }
 body.dark #link-nav a[aria-current="page"] { color: #f1f1f1; }
 
-/*
-GENRE LINKS WRAP ON SMALL SCREENS
-*/
-#main-nav { flex-wrap: wrap; justify-content: center; }
 
 /*
 MOVIE LIST AND CARD TITTLE BUTTON
 */
-#movie-grid { list-style: none; padding: 0; }
 .movie-card h3 button {
     background: none; border: none; padding: 0;
     font: inherit; color: inherit; text-align: left; cursor: pointer;
