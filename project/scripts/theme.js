@@ -15,7 +15,7 @@ export function initTheme() {
     applyTheme(localStorage.getItem(STORAGE_KEY) === 'dark');
 
     toggle.addEventListener('click', () => {
-        const isDark = !document.body.classList.container('dark')
+        const isDark = !document.body.classList.contains('dark')
         localStorage.setItem(STORAGE_KEY, isDark ? 'dark' : 'light');
         applyTheme(isDark);
     });

@@ -8,7 +8,7 @@ initTheme();
 initNav();
 
 // runs only on the page that has the movie grid (index.html)
-const grid = document.querySelector('.movie-grid');
+const grid = document.querySelector('#movie-grid');
 if (grid) { 
     initMovieBrowser(grid);
 }
@@ -38,7 +38,7 @@ async function initMovieBrowser(movieGrid) {
     movieGrid.addEventListener('click', (event) => {
         const card = event.target.closest('.movie-card');
         if (!card) return;
-        const movie = movie.find((item) => item.id === Number(card.dataset.id));
+        const movie = movies.find((item) => item.id === Number(card.dataset.id));
         if (movie) openModal(movie);
     });
 }

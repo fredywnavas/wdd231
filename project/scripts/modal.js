@@ -8,9 +8,9 @@ export function initModal() {
     dialog = document.querySelector('#movie-modal');
     if (!dialog) return;
 
-    playerBox = document.querySelector('#movie-player');
-    titleEl = document.querySelector('#movie-title');
-    detailsEl = document.querySelector('#movie-details');
+    playerBox = document.querySelector('#modal-player');
+    titleEl = document.querySelector('#modal-title');
+    detailsEl = document.querySelector('#modal-details');
 
     document.querySelector('#close-modal').addEventListener('click', () => dialog.close());
 
