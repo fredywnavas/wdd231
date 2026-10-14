@@ -357,3 +357,6 @@ FORM RESULTS PAGE
 .form-results { max-width: 600px; margin: 0 auto; text-align: center; }
 .form-results dt { font-weight: bold; margin-top: 1rem; }
 .form-results dd { margin: 0.25rem 0 0; overflow-wrap: anywhere; }
+
+/* PAGE TITLE (h1 now lives inside main) */
+main h1 { text-align: center; margin: 1rem 0; }
